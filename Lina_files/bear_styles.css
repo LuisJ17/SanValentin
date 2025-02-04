@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.bear {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #8b4513;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ears {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.ear {
+    width: 80px;
+    height: 80px;
+    background-color: #8b4513;
+    border-radius: 50%;
+}
+
+.left-ear {
+    left: -10px;
+}
+
+.right-ear {
+    right: -10px;
+}
+
+.head {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background-color: #8b4513;
+    border-radius: 50%;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eyes {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 0px;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.pupil {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 14px;
+    height: 14px;
+    background-color: #000;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.nose {
+    width: 30px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+}
+
+.mouth {
+    width: 50px;
+    height: 30px;
+    border-bottom: 5px solid #000;
+    position: absolute;
+    top: 85px;
+    border-radius: 20px;
+}
+
+.arms {
+    display: flex;
+    position: absolute;
+    
+    top: 150px;
+    gap: 150px;
+}
+
+.left-arm, .right-arm {
+    width: 150px;
+    height: 50px;
+    border-color: #000;
+    background-color: #582c0c;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.left-arm {
+    transform-origin: right;
+}
+
+.right-arm {
+    transform-origin: left;
+}
+
+.body {
+    width: 120px;
+    height: 150px;
+    background-color: #582c0c;
+    border-radius: 50%;
+}
+
+.legs {
+    width: 100px;
+    height: 0px;
+    background-color: #582c0c;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.left-leg, .right-leg {
+    width: 40px;
+    height: 40px;
+    background-color: #582c0c;
+    border-radius: 50%;
+}}
